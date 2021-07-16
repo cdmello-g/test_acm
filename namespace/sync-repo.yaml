@@ -11,4 +11,6 @@ spec:
    revision: HEAD
    branch: master
    dir: "./namespaces/gamestore/"
-   auth: none
+   auth: ssh
+   secretRef:
+     name: git-creds
