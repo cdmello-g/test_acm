@@ -12,5 +12,3 @@ spec:
    branch: master
    dir: "./namespaces/gamestore/"
    auth: none
-   secretRef:
-     name: git-creds
