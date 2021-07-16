@@ -1,0 +1,16 @@
+apiVersion: configsync.gke.io/v1alpha1
+kind: RepoSync
+metadata:
+  name: repo-sync
+  namespace: gamestore
+spec:
+  # Since this is for a namespace repository, the format should be unstructured
+sourceFormat: unstructured
+git:
+   repo: https://source.developers.google.com/p/cdmello-test-project/r/namespace-deploy
+   revision: HEAD
+   branch: master
+   dir: "./namespaces/gamestore/"
+   auth: ssh
+   secretRef:
+     name: git-creds
