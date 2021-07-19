@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # [START anthos_config_management_quickstart_multirepo_root_namespace_gamestore] 
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: gamestore
-# [END anthos_config_management_quickstart_multirepo_root_namespace_gamestore] 
+# apiVersion: v1
+# kind: Namespace
+# metadata:
+#   name: gamestore
+# # [END anthos_config_management_quickstart_multirepo_root_namespace_gamestore] 
