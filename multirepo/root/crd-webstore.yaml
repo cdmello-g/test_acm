@@ -18,45 +18,45 @@ metadata:
   name: webstores.marketplace.com
 spec:
   group: marketplace.com
-  versions:
-    - name: v1
-      served: true
-      storage: false
-      schema:
-        openAPIV3Schema:
-          type: object
-          properties:
-            spec:
-              type: object
-              required:
-              - product
-              - employees
-              properties:
-                product:
-                  type: string
-                employees:
-                  type: integer
-    - name: v2
-      served: true
-      storage: true
-      schema:
-        openAPIV3Schema:
-          type: object
-          properties:
-            spec:
-              type: object
-              required:
-              - product
-              - employees
-              properties:
-                product:
-                  type: string
-                employees:
-                  type: integer
-  scope: Namespaced
-  names:
-    plural: webstores
-    singular: webstore
-    kind: WebStore
-  preserveUnknownFields: false
-# [END anthos_config_management_quickstart_multirepo_root_custom_resource_webstore] 
+#   versions:
+#     - name: v1
+#       served: true
+#       storage: false
+#       schema:
+#         openAPIV3Schema:
+#           type: object
+#           properties:
+#             spec:
+#               type: object
+#               required:
+#               - product
+#               - employees
+#               properties:
+#                 product:
+#                   type: string
+#                 employees:
+#                   type: integer
+#     - name: v2
+#       served: true
+#       storage: true
+#       schema:
+#         openAPIV3Schema:
+#           type: object
+#           properties:
+#             spec:
+#               type: object
+#               required:
+#               - product
+#               - employees
+#               properties:
+#                 product:
+#                   type: string
+#                 employees:
+#                   type: integer
+#   scope: Namespaced
+#   names:
+#     plural: webstores
+#     singular: webstore
+#     kind: WebStore
+#   preserveUnknownFields: false
+# # [END anthos_config_management_quickstart_multirepo_root_custom_resource_webstore] 
